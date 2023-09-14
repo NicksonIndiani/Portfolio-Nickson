@@ -18,7 +18,7 @@
       text-shadow: 0 0 10px #0000ff;
     }
   }
-  .menu-lateral h3 {
+  .nick {
     margin: auto;
     color: #ffffff;
     animation: glowing 1000ms infinite alternate;

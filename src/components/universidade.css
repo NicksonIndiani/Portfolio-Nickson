@@ -34,8 +34,8 @@
 
 .univesp {
     position: absolute;
-    top: 5.3rem;
-    left: 14rem;
+    top: 5.4rem;
+    left: 14.7rem;
     display: flex;
     flex-direction: column;
     line-height: 0;
@@ -45,11 +45,19 @@
 
 .vesper {
     position: absolute;
-    top: 17.3rem;
-    left: 14rem;
+    top: 17.4rem;
+    left: 14.7rem;
     display: flex;
     flex-direction: column;
     line-height: 0;
     text-align: left;
     color: #ffffff;
+}
+
+.lgunivesp:hover{
+    transform: scale(1.1);
+}
+
+.lgvesper:hover {
+    transform: scale(1.1);
 }
