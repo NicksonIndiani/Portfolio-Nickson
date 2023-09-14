@@ -1,0 +1,64 @@
+.menu-lateral {
+  width: 200px;
+  height: 100%;
+  background-image: linear-gradient(to bottom, #000080 0%,#000080 90%, #000000 100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+  
+  @keyframes glowing {
+    0% {
+      text-shadow: 0 0 10px #ff0000;
+    }
+    50% {
+      text-shadow: 0 0 20px #00ff00;
+    }
+    100% {
+      text-shadow: 0 0 10px #0000ff;
+    }
+  }
+  .menu-lateral h3 {
+    margin: auto;
+    color: #ffffff;
+    animation: glowing 1000ms infinite alternate;
+  }
+
+  .menu-lateral img {
+    position: flex;
+    width: 10rem;
+    padding: 20px;
+    border-radius: 50%;
+  }
+
+  .menu-lateral ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu-lateral li {
+    display: block;
+    margin: 0;
+  }
+
+  .menu-lateral a {
+    display: block;
+    padding: 10px;
+    text-decoration: dashed;
+    color: #ffffff;
+  }
+  
+  .menu-lateral a:hover {
+    background-color: #436EEE;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+    animation: glowing 1000ms infinite alternate;
+    border-radius: 0 90px 90px 90px;
+    
+  }
+
+  .menu-lateral img:hover{
+      transform: scale(1.1);
+  }
+
+

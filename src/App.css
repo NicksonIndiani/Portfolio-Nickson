@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.perfil {
+  width: 10rem;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  border-radius: 50%;
+}
+
+.perfil:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px yellow;
+}
