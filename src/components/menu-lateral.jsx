@@ -1,93 +1,99 @@
-
-import  { useState } from "react";
+import React, { useState } from "react";
 import "./menu-lateral.css";
+import VisibleMenuContext from "../contexts/VisibleMenu";
 
 const MenuLateral = () => {
-    const [showExperienciaProfissional, setShowExperienciaProfissional] = useState(false);
-    const [showFormacaoComplementar, setShowFormacaoComplementar] = useState(false);
-    const [showFormacaoAcademica, setShowFormacaoAcademica] = useState(false);
-    const [showAtividadeComplementar, setShowAtividadeComplementar] = useState(false);
-    const [showProjetos, setShowProjetos] = useState(false);
+  const [showExperienciaProfissional, setShowExperienciaProfissional] =
+    useState(false);
+  const [showFormacaoComplementar, setShowFormacaoComplementar] =
+    useState(false);
+  const [showFormacaoAcademica, setShowFormacaoAcademica] = useState(false);
+  const [showAtividadeComplementar, setShowAtividadeComplementar] =
+    useState(false);
+  const [showProjetos, setShowProjetos] = useState(false);
 
-    const handleExperienciaProfissionalClick = () => {
-        setShowExperienciaProfissional(!showExperienciaProfissional);
-    };
+  const { setVisibleMenu } = React.useContext(VisibleMenuContext);
 
-    const handleFormacaoComplementarClick = () => {
-        setShowFormacaoComplementar(!showFormacaoComplementar);
-    };
+  const handleExperienciaProfissionalClick = () => {
+    setShowExperienciaProfissional(!showExperienciaProfissional);
+  };
 
-    const handleFormacaoAcademicaClick = () => {
-        setShowFormacaoAcademica(!showFormacaoAcademica);
-    };
+  const handleFormacaoComplementarClick = () => {
+    setShowFormacaoComplementar(!showFormacaoComplementar);
+  };
 
-    const handleAtividadeComplementarClick = () => {
-        setShowAtividadeComplementar(!showAtividadeComplementar);
-    };
+  const handleFormacaoAcademicaClick = () => {
+    setVisibleMenu({ visibleUniversity: true, visibleProjects: false });
+    // setShowFormacaoAcademica(!showFormacaoAcademica);
+  };
 
-    const handleProjetosClick = () => {
-        setShowProjetos(!showProjetos);
-    };
+  const handleAtividadeComplementarClick = () => {
+    setShowAtividadeComplementar(!showAtividadeComplementar);
+  };
 
-    return (
-        <div className="menu-lateral">
-            <img src="./image/perfil.jpg" alt="Sua imagem" />
-            <h3>Nickson Indiani</h3>
-            <ul>
-                <li>
-                    <a href="#" onClick={handleFormacaoAcademicaClick}>
-                        Formação Academica
-                    </a>
-                    
-                </li>
-            </ul>
+  const handleProjetosClick = () => {
+    setVisibleMenu({ visibleProjects: true, visibleUniversity: false });
+    // setShowProjetos(!showProjetos);
+  };
+
+  return (
+    <div className="menu-lateral">
+      <img src="./image/perfil.jpg" alt="Sua imagem" />
+      <h3>Nickson Indiani</h3>
+      <ul>
+        <li>
+          <a href="#" onClick={handleFormacaoAcademicaClick}>
+            Formação Academica
+          </a>
+        </li>
+      </ul>
+      <li>
+        <a href="#" onClick={handleFormacaoComplementarClick}>
+          Formação complementar
+        </a>
+        {showFormacaoComplementar && (
+          <ul>
             <li>
-                <a href="#" onClick={handleFormacaoComplementarClick}>
-                    Formação complementar
-                </a>
-                {showFormacaoComplementar && (
-                    <ul>
-                        <li>
-                            <a href="#">Cursos</a>
-                        </li>
-                        <li>
-                            <a href="#">Palestras</a>
-                        </li>
-                    </ul>
-                )}
+              <a href="#">Cursos</a>
             </li>
             <li>
-                <a href="#" onClick={handleExperienciaProfissionalClick}>
-                    Experiencia Profissional
-                </a>
-                {showExperienciaProfissional && (
-                    <ul>
-                        <li>
-                            <a href="#">2023</a>
-                        </li>
-                        <li>
-                            <a href="#">2022</a>
-                        </li>
-                    </ul>
-                )}
+              <a href="#">Palestras</a>
+            </li>
+          </ul>
+        )}
+      </li>
+      <li>
+        <a href="#" onClick={handleExperienciaProfissionalClick}>
+          Experiencia Profissional
+        </a>
+        {showExperienciaProfissional && (
+          <ul>
+            <li>
+              <a href="#">2023</a>
             </li>
             <li>
-                <a href="#" onClick={handleAtividadeComplementarClick}>
-                    Atividade Complementar
-                </a>
-                {showAtividadeComplementar && (
-                    <ul>
-                        <li>
-                            <a href="#">Freelancers</a>
-                        </li>
-                    </ul>
-                )}
+              <a href="#">2022</a>
             </li>
+          </ul>
+        )}
+      </li>
+      <li>
+        <a href="#" onClick={handleAtividadeComplementarClick}>
+          Atividade Complementar
+        </a>
+        {showAtividadeComplementar && (
+          <ul>
             <li>
-                <a href="#" onClick={handleProjetosClick}>
-                    Projetos
-                </a>
-                {/* {showProjetos && (
+              <a href="#">Freelancers</a>
+            </li>
+          </ul>
+        )}
+      </li>
+      <li>
+        <a href="#" onClick={handleProjetosClick}>
+          Projetos
+        </a>
+        {/* {showProjetos && (
                     <ul>
                         <li>
                             <a href="#">HTML</a>
@@ -97,8 +103,8 @@ const MenuLateral = () => {
                         </li>
                     </ul>
                 )} */}
-            </li>
-        </div>
-    )
-}
-export default MenuLateral
+      </li>
+    </div>
+  );
+};
+export default MenuLateral;
