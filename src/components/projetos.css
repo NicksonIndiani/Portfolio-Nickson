@@ -1,63 +1,60 @@
 .universidade {
-    position: absolute;
-    width: 1200px;
-    top: 0;
-    left: 12.5rem;
+  position: absolute;
+  width: 1200px;
+  top: 0;
+  left: 12.5rem;
 }
 
 .lgunivesp {
-    position: absolute;
-    left: 1rem;
-    top: 6rem;
-    width: 200px;
-    border: 2px solid black;
-    
+  position: absolute;
+  left: 1rem;
+  top: 6rem;
+  width: 200px;
+  border: 2px solid black;
 }
 
 .lgvesper {
-    position: absolute;
-    left: 1rem;
-    top: 18rem;
-    width: 200px;
-    border: 2px solid black;
+  position: absolute;
+  left: 1rem;
+  top: 18rem;
+  width: 200px;
+  border: 2px solid black;
 }
 
-
-
 .universidade h1 {
-    font-family: "sans-serif, Arial,  Helvetica";
-    font-size: 3em;
-    margin: auto;
-    color: #ffffff;
-    animation: glowing 1000ms infinite alternate;
+  font-family: 'sans-serif, Arial,  Helvetica';
+  font-size: 3em;
+  margin: auto;
+  color: #ffffff;
+  animation: glowing 1000ms infinite alternate;
 }
 
 .univesp {
-    position: absolute;
-    top: 5.4rem;
-    left: 14.7rem;
-    display: flex;
-    flex-direction: column;
-    line-height: 0;
-    text-align: left;
-    color: #ffffff;
+  position: absolute;
+  top: 5.4rem;
+  left: 14.7rem;
+  display: flex;
+  flex-direction: column;
+  line-height: 0;
+  text-align: left;
+  color: #ffffff;
 }
 
 .vesper {
-    position: absolute;
-    top: 17.4rem;
-    left: 14.7rem;
-    display: flex;
-    flex-direction: column;
-    line-height: 0;
-    text-align: left;
-    color: #ffffff;
+  position: absolute;
+  top: 17.4rem;
+  left: 14.7rem;
+  display: flex;
+  flex-direction: column;
+  line-height: 0;
+  text-align: left;
+  color: #ffffff;
 }
 
-.lgunivesp:hover{
-    transform: scale(1.1);
+.lgunivesp:hover {
+  transform: scale(1.1);
 }
 
 .lgvesper:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }

@@ -1,14 +1,14 @@
 .acomplementar {
-    position: absolute;
-    width: 1200px;
-    top: 0;
-    left: 12.5rem;
+  position: absolute;
+  width: 1200px;
+  top: 0;
+  left: 12.5rem;
 }
 
 .acomplementar h1 {
-    font-family: "sans-serif, Arial,  Helvetica";
-    font-size: 3em;
-    margin: auto;
-    color: #ffffff;
-    animation: glowing 1000ms infinite alternate;
+  font-family: 'sans-serif, Arial,  Helvetica';
+  font-size: 3em;
+  margin: auto;
+  color: #ffffff;
+  animation: glowing 1000ms infinite alternate;
 }
