@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import "./menu-lateral.css";
-import VisibleMenuContext from "../contexts/VisibleMenu";
+import React from 'react';
+import './menu-lateral.css';
+import VisibleMenuContext from '../contexts/VisibleMenu';
 
 const MenuLateral = () => {
   // const [showExperienciaProfissional, setShowExperienciaProfissional] =
@@ -15,66 +15,106 @@ const MenuLateral = () => {
   const { setVisibleMenu } = React.useContext(VisibleMenuContext);
 
   const handleExperienciaProfissionalClick = () => {
-    setVisibleMenu({ visibleProjects: false, visibleUniversity: false, visibleFormacaocomplementar: false, visibleAtividadecomplementar: false, visibleExperienciaprofissional: true, visibleNicksonindiani: false  });
+    setVisibleMenu({
+      visibleProjects: false,
+      visibleUniversity: false,
+      visibleFormacaocomplementar: false,
+      visibleAtividadecomplementar: false,
+      visibleExperienciaprofissional: true,
+      visibleNicksonindiani: false,
+    });
     // setShowExperienciaProfissional(!showExperienciaProfissional);
   };
 
   const handleFormacaoAcademicaClick = () => {
-    setVisibleMenu({ visibleUniversity: true, visibleProjects: false, visibleFormacaocomplementar: false, visibleAtividadecomplementar: false, visibleExperienciaprofissional: false, visibleNicksonindiani: false });
+    setVisibleMenu({
+      visibleUniversity: true,
+      visibleProjects: false,
+      visibleFormacaocomplementar: false,
+      visibleAtividadecomplementar: false,
+      visibleExperienciaprofissional: false,
+      visibleNicksonindiani: false,
+    });
     // setShowFormacaoAcademica(!showFormacaoAcademica);
   };
 
   const handleFormacaoComplementarClick = () => {
-    setVisibleMenu({visibleFormacaocomplementar: true, visibleUniversity: false, visibleProjects: false, visibleAtividadecomplementar: false, visibleExperienciaprofissional: false, visibleNicksonindiani: false });
+    setVisibleMenu({
+      visibleFormacaocomplementar: true,
+      visibleUniversity: false,
+      visibleProjects: false,
+      visibleAtividadecomplementar: false,
+      visibleExperienciaprofissional: false,
+      visibleNicksonindiani: false,
+    });
     // setShowFormacaoComplementar(!showFormacaoComplementar);
   };
 
-  const handleAtividadeComplementarClick = () => {  
-    setVisibleMenu({ visibleProjects: false, visibleUniversity: false, visibleFormacaocomplementar: false, visibleAtividadecomplementar: true, visibleExperienciaprofissional: false, visibleNicksonindiani: false });
+  const handleAtividadeComplementarClick = () => {
+    setVisibleMenu({
+      visibleProjects: false,
+      visibleUniversity: false,
+      visibleFormacaocomplementar: false,
+      visibleAtividadecomplementar: true,
+      visibleExperienciaprofissional: false,
+      visibleNicksonindiani: false,
+    });
     //setShowAtividadeComplementar(!showAtividadeComplementar);
   };
 
   const handleProjetosClick = () => {
-    setVisibleMenu({ visibleProjects: true, visibleUniversity: false, visibleFormacaocomplementar: false, visibleAtividadecomplementar: false, visibleExperienciaprofissional: false, visibleNicksonindiani: false  });
+    setVisibleMenu({
+      visibleProjects: true,
+      visibleUniversity: false,
+      visibleFormacaocomplementar: false,
+      visibleAtividadecomplementar: false,
+      visibleExperienciaprofissional: false,
+      visibleNicksonindiani: false,
+    });
     // setShowProjetos(!showProjetos);
   };
 
   const handleNicksonIndianiClick = () => {
-    setVisibleMenu({visibleFormacaocomplementar: false, visibleUniversity: false, visibleProjects: false, visibleAtividadecomplementar: false, visibleExperienciaprofissional: false, visibleNicksonindiani: true });
+    setVisibleMenu({
+      visibleFormacaocomplementar: false,
+      visibleUniversity: false,
+      visibleProjects: false,
+      visibleAtividadecomplementar: false,
+      visibleExperienciaprofissional: false,
+      visibleNicksonindiani: true,
+    });
     // setShowFormacaoComplementar(!showFormacaoComplementar);
   };
 
   return (
     <div className="menu-lateral">
       <img src="./image/perfil.jpg" alt="Sua imagem" />
-      
+
       <ul>
         <li>
-          <a className= "nick" href="#" onClick={handleNicksonIndianiClick}>
+          <a className="nick" href="#" onClick={handleNicksonIndianiClick}>
             Nickson Indiani
-            </a>
+          </a>
           <a href="#" onClick={handleFormacaoAcademicaClick}>
             Formação Academica
           </a>
         </li>
       </ul>
-      
-        <a href="#" onClick={handleFormacaoComplementarClick}>
-          Formação complementar
-        </a>
-      
-      
-        <a href="#" onClick={handleExperienciaProfissionalClick}>
-          Experiencia Profissional
-        </a>
-      
-      
-        <a href="#" onClick={handleAtividadeComplementarClick}>
-          Atividade Complementar
-        </a>
-        <a href="#" onClick={handleProjetosClick}>
-          Projetos
-        </a>
+
+      <a href="#" onClick={handleFormacaoComplementarClick}>
+        Formação complementar
+      </a>
+
+      <a href="#" onClick={handleExperienciaProfissionalClick}>
+        Experiencia Profissional
+      </a>
+
+      <a href="#" onClick={handleAtividadeComplementarClick}>
+        Atividade Complementar
+      </a>
+      <a href="#" onClick={handleProjetosClick}>
+        Projetos
+      </a>
     </div>
   );
 };

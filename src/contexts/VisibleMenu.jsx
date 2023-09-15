@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const VisibleMenuContext = React.createContext();
 
@@ -6,8 +6,8 @@ export const VisibleMenuProvider = ({ children }) => {
   const [visibleMenu, setVisibleMenu] = React.useState({
     visibleUniversity: true,
     visibleProjects: false,
-    visibleFormacaocomplementar: false, 
-    visibleExperienciaprofissional: false, 
+    visibleFormacaocomplementar: false,
+    visibleExperienciaprofissional: false,
     visibleAtividadecomplementar: false,
     visibleNicksonindiani: false,
   });

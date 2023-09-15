@@ -1,4 +1,4 @@
-import "./universidade.css";
+import './universidade.css';
 
 const Universidade = () => {
   return (
