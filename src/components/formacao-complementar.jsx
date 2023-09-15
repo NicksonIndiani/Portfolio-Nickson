@@ -13,7 +13,7 @@ const FormacaoComplementar = () => {
 
       <nav className='crs'>
         <img src="./image/coursera.jpg" alt="crs" />
-        <h3>Certificado Profissional em Análise de Dados</h3>
+        <h3>Análise de Dados</h3>
         <h4>INSTITUIÇÃO: COURSERA</h4>
         <p>Analise e manipulação de database</p>
       </nav>

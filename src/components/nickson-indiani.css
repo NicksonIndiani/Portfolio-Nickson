@@ -10,7 +10,7 @@
   font-size: 3em;
   margin: auto;
   color: #ffffff;
-  animation: glowing 1000ms infinite alternate;
+  animation: glowing 3000ms infinite alternate;
 }
 
 .nickson p {

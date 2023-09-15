@@ -14,13 +14,13 @@
 
 @keyframes glowing {
   0% {
-    text-shadow: 0 0 10px #ff0000;
+    text-shadow: 0 0 10px slateblue;
   }
   50% {
-    text-shadow: 0 0 20px #00ff00;
+    text-shadow: 0 0 10px lightblue;
   }
   100% {
-    text-shadow: 0 0 10px #0000ff;
+    text-shadow: 0 0 10px blue;
   }
 }
 .nick {
