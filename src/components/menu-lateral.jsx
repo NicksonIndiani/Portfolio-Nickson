@@ -92,17 +92,18 @@ const MenuLateral = () => {
 
       <ul>
         <li>
-          <a className="nick" href="#" onClick={handleNicksonIndianiClick}>
+          <a href="#" onClick={handleNicksonIndianiClick}>
             Nickson Indiani
-          </a>
-          <a href="#" onClick={handleFormacaoAcademicaClick}>
-            Formação Academica
           </a>
         </li>
       </ul>
 
+      <a href="#" onClick={handleFormacaoAcademicaClick}>
+        Formação Academica
+      </a>
+
       <a href="#" onClick={handleFormacaoComplementarClick}>
-        Formação complementar
+        Formação Complementar
       </a>
 
       <a href="#" onClick={handleExperienciaProfissionalClick}>
@@ -112,6 +113,7 @@ const MenuLateral = () => {
       <a href="#" onClick={handleAtividadeComplementarClick}>
         Atividade Complementar
       </a>
+
       <a href="#" onClick={handleProjetosClick}>
         Projetos
       </a>

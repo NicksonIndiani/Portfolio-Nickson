@@ -9,13 +9,14 @@
   font-family: 'sans-serif, Arial,  Helvetica';
   font-size: 3em;
   margin: auto;
-  color: #ffffff;
+  color: #556372;
   animation: glowing 3000ms infinite alternate;
 }
 
 .nickson p {
   font-family: 'sans-serif, Arial,  Helvetica';
   text-align: left;
+  color: #56585a;
   margin: auto;
   margin-top: 3rem;
   font-size: 1.2rem;

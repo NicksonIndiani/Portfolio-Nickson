@@ -9,16 +9,16 @@
   font-family: 'sans-serif, Arial,  Helvetica';
   font-size: 3em;
   margin: auto;
-  color: #ffffff;
+  color: #56585a;
   animation: glowing 3000ms infinite alternate;
 }
 
 .gds img {
-  width:150px;
+  width: 150px;
   position: absolute;
   left: 1.6rem;
   top: 8.3rem;
-  border: 2px solid black;
+  border: 2px solid #556372;
 }
 
 .gds img:hover {
@@ -26,7 +26,7 @@
 }
 
 .gds h3 {
-  font-weight: bold ;
+  font-weight: bold;
   text-decoration: underline 2px;
   text-align: left;
   line-height: 0;
@@ -51,11 +51,11 @@
 }
 
 .crs img {
-  width:150px;
+  width: 150px;
   position: absolute;
   left: 1.6rem;
   top: 17.1rem;
-  border: 2px solid black;
+  border: 2px solid #556372;
 }
 
 .crs img:hover {
@@ -89,11 +89,11 @@
 }
 
 .enapes img {
-  width:150px;
+  width: 150px;
   position: absolute;
   left: 37rem;
   top: 17.1rem;
-  border: 2px solid black;
+  border: 2px solid #556372;
 }
 
 .enapes img:hover {
@@ -127,11 +127,11 @@
 }
 
 .enapbd img {
-  width:150px;
+  width: 150px;
   position: absolute;
   left: 37rem;
   top: 8.1rem;
-  border: 2px solid black;
+  border: 2px solid #556372;
 }
 
 .enapbd img:hover {
@@ -164,4 +164,11 @@
   line-height: 0;
   margin-top: 1rem;
   margin-left: 47.5rem;
+}
+
+.gds,
+.crs,
+.enapbd,
+.enapes {
+  color: #556372;
 }

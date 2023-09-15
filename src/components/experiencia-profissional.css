@@ -9,16 +9,16 @@
   font-family: 'sans-serif, Arial,  Helvetica';
   font-size: 3em;
   margin: auto;
-  color: #ffffff;
+  color: #56585a;
   animation: glowing 3000ms infinite alternate;
 }
 
 .rp img {
-  width:150px;
+  width: 150px;
   position: absolute;
   left: 1.6rem;
   top: 8.3rem;
-  border: 2px solid black;
+  border: 2px solid #556372;
 }
 
 .rp img:hover {
@@ -26,12 +26,13 @@
 }
 
 .rp h3 {
-  font-weight: bold ;
+  font-weight: bold;
   text-decoration: underline 2px;
   text-align: left;
   line-height: 0;
   margin-top: 6rem;
   margin-left: 12rem;
+  color: #556372;
 }
 
 .rp h4 {
@@ -40,6 +41,7 @@
   line-height: 0;
   margin-top: 1.3rem;
   margin-left: 12rem;
+  color: #556372;
 }
 
 .rp p {
@@ -49,14 +51,15 @@
   line-height: 1;
   margin-top: 1rem;
   margin-left: 12rem;
+  color: #556372;
 }
 
 .chmd img {
-  width:150px;
+  width: 150px;
   position: absolute;
   left: 35.6rem;
   top: 8.3rem;
-  border: 2px solid black;
+  border: 2px solid #556372;
 }
 
 .chmd img:hover {
@@ -64,12 +67,13 @@
 }
 
 .chmd h3 {
-  font-weight: bold ;
+  font-weight: bold;
   text-decoration: underline 2px;
   text-align: left;
   line-height: 0;
   margin-top: -23rem;
   margin-left: 46rem;
+  color: #556372;
 }
 
 .chmd h4 {
@@ -78,6 +82,7 @@
   line-height: 0;
   margin-top: 1.3rem;
   margin-left: 46rem;
+  color: #556372;
 }
 
 .chmd p {
@@ -87,4 +92,5 @@
   line-height: 1;
   margin-top: 1rem;
   margin-left: 46rem;
+  color: #556372;
 }

@@ -3,24 +3,25 @@
   height: 100%;
   background-image: linear-gradient(
     to bottom,
-    #000080 0%,
-    #000080 90%,
-    #000000 100%
+    #e0ffff 0%,
+    #e0ffff 90%,
+    #e0ffff 100%
   );
   position: fixed;
   top: 0;
   left: 0;
+  border-right: 4px solid #708090;
 }
 
 @keyframes glowing {
   0% {
-    text-shadow: 0 0 10px slateblue;
+    text-shadow: 0 0 10px #87cefa;
   }
   50% {
-    text-shadow: 0 0 10px lightblue;
+    text-shadow: 0 0 10px #87ceeb;
   }
   100% {
-    text-shadow: 0 0 10px blue;
+    text-shadow: 0 0 10px #add8e6;
   }
 }
 .nick {
@@ -32,13 +33,15 @@
 .menu-lateral img {
   position: flex;
   width: 10rem;
-  padding: 20px;
-  border-radius: 50%;
+  margin-top: 1rem;
+  border-radius: 90px;
+  border: 2px solid #708090;
 }
 
 .menu-lateral ul {
   list-style: none;
   padding: 0;
+  font-size: 10px;
 }
 
 .menu-lateral li {
@@ -47,18 +50,18 @@
 }
 
 .menu-lateral a {
+  font-size: 18px;
   display: block;
   padding: 10px;
   text-decoration: dashed;
-  color: #ffffff;
+  color: #708090;
 }
 
 .menu-lateral a:hover {
-  background-color: #436eee;
-  color: #ffffff;
+  color: #9370db;
   transition: all 0.3s ease-in-out;
   animation: glowing 1000ms infinite alternate;
-  border-radius: 0 90px 90px 90px;
+  transform: scale(1.1);
 }
 
 .menu-lateral img:hover {
