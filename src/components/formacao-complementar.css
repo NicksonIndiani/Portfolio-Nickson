@@ -12,3 +12,156 @@
   color: #ffffff;
   animation: glowing 1000ms infinite alternate;
 }
+
+.gds img {
+  width:150px;
+  position: absolute;
+  left: 1.6rem;
+  top: 8.3rem;
+  border: 2px solid black;
+}
+
+.gds img:hover {
+  transform: scale(1.1);
+}
+
+.gds h3 {
+  font-weight: bold ;
+  text-decoration: underline 2px;
+  text-align: left;
+  line-height: 0;
+  margin-top: 6rem;
+  margin-left: 12rem;
+}
+
+.gds h4 {
+  font-weight: bold;
+  text-align: left;
+  line-height: 0;
+  margin-top: 1.3rem;
+  margin-left: 12rem;
+}
+
+.gds p {
+  font-weight: bold !important;
+  text-align: left;
+  line-height: 0;
+  margin-top: 1rem;
+  margin-left: 12rem;
+}
+
+.crs img {
+  width:150px;
+  position: absolute;
+  left: 1.6rem;
+  top: 17.1rem;
+  border: 2px solid black;
+}
+
+.crs img:hover {
+  transform: scale(1.1);
+}
+
+.crs h3 {
+  font-size: 1.07rem;
+  font-weight: bold;
+  text-decoration: underline 2px;
+  text-align: left;
+  line-height: 0;
+  margin-top: 6rem;
+  margin-left: 12rem;
+}
+
+.crs h4 {
+  font-weight: bold;
+  text-align: left;
+  line-height: 0;
+  margin-top: 1.3rem;
+  margin-left: 12rem;
+}
+
+.crs p {
+  font-weight: bold !important;
+  text-align: left;
+  line-height: 0;
+  margin-top: 1rem;
+  margin-left: 12rem;
+}
+
+.enapes img {
+  width:150px;
+  position: absolute;
+  left: 37rem;
+  top: 17.1rem;
+  border: 2px solid black;
+}
+
+.enapes img:hover {
+  transform: scale(1.1);
+}
+
+.enapes h3 {
+  font-size: 1.07rem;
+  font-weight: bold;
+  text-decoration: underline 2px;
+  text-align: left;
+  line-height: 0;
+  margin-top: -3.6rem;
+  margin-left: 47.5rem;
+}
+
+.enapes h4 {
+  font-weight: bold;
+  text-align: left;
+  line-height: 0;
+  margin-top: 1.3rem;
+  margin-left: 47.5rem;
+}
+
+.enapes p {
+  font-weight: bold !important;
+  text-align: left;
+  line-height: 0;
+  margin-top: 1rem;
+  margin-left: 47.5rem;
+}
+
+.enapbd img {
+  width:150px;
+  position: absolute;
+  left: 37rem;
+  top: 8.1rem;
+  border: 2px solid black;
+}
+
+.enapbd img:hover {
+  transform: scale(1.1);
+}
+
+.enapbd h3 {
+  font-size: 1.07rem;
+  font-weight: bold;
+  text-decoration: underline 2px;
+  text-align: left;
+  line-height: 0;
+  margin-top: -12.6rem;
+  margin-left: 47.5rem;
+}
+
+.enapbd h4 {
+  font-weight: bold;
+  text-align: left;
+  line-height: 0;
+  margin-top: 1.3rem;
+  margin-left: 47.5rem;
+}
+
+.enapbd p {
+  max-width: 300px;
+  word-wrap: break-word;
+  font-weight: bold !important;
+  text-align: left;
+  line-height: 0;
+  margin-top: 1rem;
+  margin-left: 47.5rem;
+}
