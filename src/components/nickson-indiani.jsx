@@ -7,6 +7,7 @@ const NicksonIndiani = () => {
       <p>
         Olá,
         <br />
+        <br />
         Meu nome é Nickson, tenho 24 anos e estou empolgado em compartilhar um
         pouco sobre mim com vocês. Sou um indivíduo apaixonado e dedicado e uma
         variedade de habilidades.
@@ -36,6 +37,7 @@ const NicksonIndiani = () => {
         <br />
         Atenciosamente,
         <br />
+        <br />  
         Nickson Indiani.
       </p>
     </div>

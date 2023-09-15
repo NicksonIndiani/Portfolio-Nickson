@@ -1,8 +1,8 @@
-import './universidade.css';
+import './projetos.css';
 
 const Projetos = () => {
   return (
-    <div className="universidade">
+    <div className="projeto">
       <h1>Projetos</h1>
     </div>
   );

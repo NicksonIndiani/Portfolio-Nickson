@@ -1,8 +1,8 @@
-import './universidade.css';
+import './atividade-complementar.css';
 
 const AtividadeComplementar = () => {
   return (
-    <div className="universidade">
+    <div className="acomplementar">
       <h1>Atividade Complementar</h1>
     </div>
   );
