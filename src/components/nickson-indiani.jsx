@@ -37,7 +37,7 @@ const NicksonIndiani = () => {
         <br />
         Atenciosamente,
         <br />
-        <br />  
+        <br />
         Nickson Indiani.
       </p>
     </div>

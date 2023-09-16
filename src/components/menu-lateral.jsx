@@ -88,7 +88,7 @@ const MenuLateral = () => {
 
   return (
     <div className="menu-lateral">
-      <img src="./image/perfil.jpg" alt="Sua imagem" />
+      <img src="/image/perfil.jpg" alt="Sua imagem" />
 
       <ul>
         <li>

@@ -7,7 +7,7 @@ const Universidade = () => {
       <div className="boxfor">
         <img
           className="lgunivesp"
-          src="./image/univesp.jpg"
+          src="/image/Univesp.jpg"
           alt="Logo Univesp"
         />
         <nav className="univesp">
@@ -18,7 +18,7 @@ const Universidade = () => {
       </div>
 
       <div className="boxfor">
-        <img className="lgvesper" src="./image/vesper.jpg" alt="Logo Vesper" />
+        <img className="lgvesper" src="/image/Vesper.jpg" alt="Logo Vesper" />
         <nav className="vesper">
           <h2>Colégio Técnico - VespeR</h2>
           <h2>Técnico: Mecatrônica</h2>
